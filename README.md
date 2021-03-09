@@ -23,14 +23,15 @@ Al igual que en cualquier otro lenguaje de programnación, una variable es un no
 - ### Explain the SASS variables property with an example
 Los únicos valores que se pueden almacenar en una variables de SASS son propiedades CSS.
 
-```$font-stack: Helvetica, sans-serif;
+```
+$font-stack: Helvetica, sans-serif;
 $primary-color: #333;
 
 body {
 font: 100% $font-stack;
 color: $primary-color;
-}```
-
+}
+```
 - ### What is a mixin? Why is it important? Give an example
 Es una porción de código reutilizable. Es importante porque nos permite no duplicar código, generando hojas de estilo menos pesadas. Un mixin es análogo a una función en lenguajes de programación
 - ### What is SCSS? Give an example
