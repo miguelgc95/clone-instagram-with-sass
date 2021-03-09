@@ -37,8 +37,6 @@ Es una porción de código reutilizable. Es importante porque nos permite no dup
 - ### What is SCSS? Give an example
 Es una nueva versión de SASS.
 Tiene su propia extensión .scss y es 100% compatible con CSS (puedes escribir ambos en el mismo fichero)
-- ### What is SASS? Give an example
-
 - ### What is the difference between .scss and .sass syntax.
 SCSS utiliza brackets al igual que CSS tradicional, mientras que SASS hace uso de identación. Además en SASS no es necesario poner ; al final de cada regla
 - ### In which cases would we use SCSS? And in which cases would we use SASS?
