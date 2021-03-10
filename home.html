@@ -1,19 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <main class="home-wrapper">
-        <nav class="nav-wrapper">
-
-        </nav>
-        <section class="posts-wrapper">
-            
-        </section>
-    </main>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <main class="home-wrapper">
+            <nav class="nav-wrapper">
+                <article class="logo"></article>
+                <article class="search-engine-wrapper">
+                    <form action="#" class="search-engine">
+                        <label for="search-input">
+                            <input
+                                type="text"
+                                id="search-input"
+                                class="search-input"
+                                placeholder="Buscar"
+                            />
+                        </label>
+                    </form>
+                </article>
+                <article class="icons-wrapper">
+                    <span class="home-icon-wrapper"></span>
+                    <span class="newPost-icon-wrapper"></span>
+                    <span class="profile-icon-wrapper"></span>
+                </article>
+                <a href="./login.html">Log out</a>
+            </nav>
+            <section class="posts-wrapper">
+                <article class="post post-1">
+                    <div class="post__header">
+                        <span class="post__header__img"><img src="./assets/images/mulhacen.jpg" alt="profile-img"></span>
+                        <span class="class="post__header__name">miguepuntog</span>
+                    </div>
+                    <div class="post-img"><img src="./assets/images/post.jpeg" alt="post-img"></div>
+                    <div class="info-wrapper">
+                        <div class="post-icons"></div>
+                        <span class="likes">999999 Me gusta</span>
+                        <div class="all-comments">
+                            <div class="post-commet">
+                                <span class="post__comment__whoCommets">Adamondra</span>
+                                <span class="post__comment__contentComent">teach me how to climbing pls!</span>
+                            </div>
+                            <div class="post-commet">
+                                <span class="post__comment__whoCommets">colegaAleatorio</span>
+                                <span class="post__comment__contentComent">Fotón</span>
+                            </div>
+                        </div>
+                            <span class="post__date">HACE 1 DÍA</span>
+                    </div>
+                </article>
+                <article class="post post-2">
+                    <div class="post__header">
+                        <span class="post__header__img"><img src="./assets/images/assembler-profile.jpg" alt="profile-img"></span>
+                        <span class="class="post__header__name">AssemblerSchool</span>
+                    </div>
+                    <div class="post-img"><img src="./assets/images/assembler-post.jpg" alt="post-img"></div>
+                    <div class="info-wrapper">
+                        <div class="post-icons"></div>
+                        <span class="likes">3435 Me gusta</span>
+                        <div class="all-comments">
+                            <div class="post-commet">
+                                <span class="post__comment__whoCommets">PauPuchu</span>
+                                <span class="post__comment__contentComent">La promoción de oct20 es la mejor</span>
+                            </div>
+                            <div class="post-commet">
+                                <span class="post__comment__whoCommets">promoOct20</span>
+                                <span class="post__comment__contentComent">Queremos feedback de nuestro código!</span>
+                            </div>
+                        </div>
+                        <span class="post__date">HACE 2 DÍAS</span>
+                    </div>
+                </article>
+            </section>
+        </main>
+    </body>
 </html>
