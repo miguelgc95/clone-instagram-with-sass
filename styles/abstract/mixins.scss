@@ -1,0 +1,9 @@
+@use './variables' as v;
+
+@mixin comun {
+    background-color: v.$bg-color;
+}
+
+@mixin flex-hor {
+    
+}
