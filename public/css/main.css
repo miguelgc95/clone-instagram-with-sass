@@ -259,7 +259,7 @@ body {
   margin-left: 20px;
 }
 .login-wrapper .meta-log .form-wrapper {
-  background: #FFFFFF;
+  background: #ffffff;
   margin-bottom: 15px;
   box-sizing: border-box;
   width: 100%;
@@ -285,12 +285,34 @@ body {
 }
 .login-wrapper .meta-log .form-wrapper form input {
   margin-bottom: 20px;
+  box-sizing: border-box;
+  width: 100%;
   border: 1px solid #dbdbdb;
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 2px;
   font-size: 12px;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
+}
+.login-wrapper .meta-log .form-wrapper a {
+  box-sizing: border-box;
+  width: 100%;
+}
+.login-wrapper .meta-log .form-wrapper a button {
+  border: 1px solid #dbdbdb;
+  border-radius: 2px;
+  padding: 6px;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #0095f6;
+  color: #fafafa;
+  font-weight: bolder;
+}
+.login-wrapper .meta-log .form-wrapper .fb {
+  display: flex;
+  align-items: center;
+  color: #385185;
+  font-weight: bolder;
 }
 .login-wrapper .meta-log .no-account {
   box-sizing: border-box;
@@ -298,22 +320,38 @@ body {
   padding: 30px;
   text-align: center;
   border: 1px solid #dbdbdb;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 1px;
   margin-bottom: 15px;
+}
+.login-wrapper .meta-log .no-account span a {
+  text-decoration: none;
+  color: #0095f6;
+  font-weight: bolder;
 }
 .login-wrapper .meta-log .get-app {
   margin-bottom: 15px;
 }
+.login-wrapper .meta-log .store-btns-wrapper {
+  display: flex;
+  flex-direction: row;
+}
 
 .footer-links {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+.footer-links .footer-links__item {
+  text-decoration: none;
+  margin: 12px;
+  color: #8e8e8e;
+  font-size: 11px;
 }
 
 .license {
   margin-top: 15px;
   text-align: center;
+  color: #8e8e8e;
 }
 
 /*# sourceMappingURL=main.css.map */
