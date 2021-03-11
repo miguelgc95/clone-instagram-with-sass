@@ -252,6 +252,7 @@ body {
 }
 .login-wrapper .meta-log {
   height: 80%;
+  width: 25%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -278,12 +279,13 @@ body {
   font-size: 50px !important;
 }
 .login-wrapper .meta-log .form-wrapper form {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
-.login-wrapper .meta-log .form-wrapper form input {
+.login-wrapper .meta-log .form-wrapper form label input {
   margin-bottom: 20px;
   box-sizing: border-box;
   width: 100%;
